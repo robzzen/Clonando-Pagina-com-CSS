@@ -1,0 +1,135 @@
+@import url(reset.css);
+
+body {
+    width: 95%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+
+    display: inline-flexbox;
+}
+
+main {
+    margin-top: 5px;
+    width: 80%;
+    height: auto;
+}
+
+section {
+    margin-top: 0px;
+    width: 20%;
+    height: auto;
+}
+
+.container {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.borda-gabarito{
+    border: solid 1px;
+}
+
+.nav__bar {
+    width: 95%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 5px;
+}
+
+.retangulo{ 
+    direction: rtl;
+    display: inline-flex;
+    width: 30%;
+    height: auto;
+    border: solid #cac4c4 1px;
+    border-radius: 2px;
+}
+
+.video_Youtube {
+    padding: 10px;
+    width: 70%;
+    margin: 5px 5px;
+}
+
+.barra_lateral{
+    padding: 10px;
+    width: 30%;
+    margin: 0;
+}
+
+.thumb-lateral {
+    margin-top: 5px;
+    /*display: inline-block;*/
+    overflow: hidden;
+}
+
+.thumb-lateral img {
+    float: left;
+    margin-right: 10px;
+}
+
+.thumb-lateral span{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.thumb-lateral span p{
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.thumb-lateral span p + p{
+    margin: 5px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+main p {
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.video_actions + span {
+    margin: 100px 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.video_actions + span + p{
+    max-width: 60%;
+    margin: 10px 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.video_actions + p {
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.video_actions  {
+    margin-top: 10px;
+
+
+}
+
+.video_actions li{
+    display: inline-flex;
+    margin: 5px 20px 5px 5px;
+    
+}
+
+
+
